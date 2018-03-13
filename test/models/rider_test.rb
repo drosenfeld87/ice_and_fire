@@ -5,9 +5,9 @@ class RiderTest < ActiveSupport::TestCase
   def test_that_riders_swing
     # Use your knowledge of factories to make the test pass!
     # this time use create( ... ) instead of build
-    aegon = create(:rider, name: 'Aegon', sword: 'Blackfyre')
+    aegon = create(:rider, name: 'Aegon', sword: 'Blackfyre', nickname: 'The Conqueror')
     daenerys = create(:rider, name: 'Daenerys', sword: 'Lightbringer')
-    # 
+    #
     # binding.pry
 
 
